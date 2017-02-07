@@ -8,7 +8,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-
+    //declare needed variables for widgets 
     EditText etBill;
     EditText etNumberPeople;
     TextView tvTotalTip;
@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void onClickButtonCalc(View view) {
+        //comment to test drive Github
         Double bill = Double.parseDouble(etBill.getText().toString());
         Double numPeople = Double.parseDouble(etNumberPeople.getText().toString());
         Double totalTip;                //have to declare outside if-than
